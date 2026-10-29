@@ -1,0 +1,96 @@
+[
+  {
+    "id": "egg-keychain",
+    "slug": "egg-keychain",
+    "name_en": "Fried-egg keycap keychain",
+    "name_zh": "煎蛋按鍵匙扣",
+    "desc_en": "3D-printed fried-egg style keycap keychain. Concept / demo sample — not final retail stock.",
+    "desc_zh": "3D 打印煎蛋造型按鍵匙扣。概念／示範樣品——非最終零售貨。",
+    "price_hkd": 68,
+    "price_nzd": 15,
+    "image": "assets/img/egg-keychain.jpg",
+    "image_alt": "assets/img/egg-keychain-alt.jpg",
+    "stock_note_en": "Made to order (demo)",
+    "stock_note_zh": "落單再印（示範）",
+    "warnings": [
+      "small_parts"
+    ],
+    "active": true,
+    "sort": 10,
+    "category": "fidget"
+  },
+  {
+    "id": "keycap-figurines",
+    "slug": "keycap-figurines",
+    "name_en": "Keycap figurine set",
+    "name_zh": "按鍵擺件造型",
+    "desc_en": "Multi-switch desk figurines (paw, mushroom, cloud, flower, cup). Concept series overview.",
+    "desc_zh": "多掣桌面按鍵擺件（肉球、蘑菇、雲朵、小花、圓杯）。概念系列總覽。",
+    "price_hkd": 128,
+    "price_nzd": 28,
+    "image": "assets/img/keycap-figurines.jpg",
+    "stock_note_en": "Series demo — styles may vary",
+    "stock_note_zh": "系列示範——款式或有變動",
+    "warnings": [
+      "small_parts"
+    ],
+    "active": true,
+    "sort": 20,
+    "category": "fidget"
+  },
+  {
+    "id": "cable-clips",
+    "slug": "cable-clips",
+    "name_en": "Cable clips (pack of 4)",
+    "name_zh": "線夾（4 件裝）",
+    "desc_en": "Desk cable clips, pink AMS print sample from desk kit v1.2.",
+    "desc_zh": "桌面線夾，粉紅 AMS 試印樣品（桌面套裝 v1.2）。",
+    "price_hkd": 48,
+    "price_nzd": 12,
+    "image": "assets/img/cable-clips.png",
+    "stock_note_en": "In stock (demo)",
+    "stock_note_zh": "有貨（示範）",
+    "warnings": [],
+    "active": true,
+    "sort": 30,
+    "category": "desk"
+  },
+  {
+    "id": "phone-stand",
+    "slug": "phone-stand",
+    "name_en": "Phone stand + cable clips set",
+    "name_zh": "手機座＋線夾套裝",
+    "desc_en": "Phone stand with 4 cable clips on one plate (deep blue AMS sample).",
+    "desc_zh": "手機座連 4 個線夾同一盤（深藍 AMS 樣品）。",
+    "price_hkd": 98,
+    "price_nzd": 22,
+    "image": "assets/img/phone-stand.png",
+    "stock_note_en": "In stock (demo)",
+    "stock_note_zh": "有貨（示範）",
+    "warnings": [],
+    "active": true,
+    "sort": 40,
+    "category": "stands"
+  },
+  {
+    "id": "animal-sounds",
+    "slug": "animal-sounds",
+    "name_en": "Electronic animal-sound toy (concept)",
+    "name_zh": "電子動物叫聲（概念）",
+    "desc_en": "Concept series: cat / dog / bird button toys with sound. Not yet printed for sale.",
+    "desc_zh": "概念系列：貓／狗／鳥掣位叫聲玩具。尚未正式試印上架。",
+    "price_hkd": 168,
+    "price_nzd": 38,
+    "image": "assets/img/animal-sounds.jpg",
+    "stock_note_en": "Concept only — not for sale yet",
+    "stock_note_zh": "純概念——尚未開售",
+    "warnings": [
+      "battery",
+      "small_parts",
+      "age_14"
+    ],
+    "active": true,
+    "sort": 50,
+    "category": "concept"
+  }
+]

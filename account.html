@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" class="fs1">
+<head>
+<script>
+/* GitHub Pages project base — 改 repo 名必須改 REPO；唔好同 /members/ 舊會員站混淆 */
+(function(){var REPO="members-shop";var p=location.pathname;var base="./";if(p==="/"+REPO||p.indexOf("/"+REPO+"/")===0){base="/"+REPO+"/";}else{var i=p.lastIndexOf("/");if(i>=0)base=p.slice(0,i+1)||"./";}document.write('<base href="'+base+'">');window.__SITE_BASE__=base;})();
+
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; connect-src 'self' https://*.supabase.co wss://*.supabase.co; style-src 'self'; img-src 'self' data:; base-uri 'self'; form-action 'self'; object-src 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0b3c5d">
+<title>Account | 3D Shop</title>
+<link rel="stylesheet" href="assets/style.css?v=2">
+</head>
+<body data-page="account" data-title="welcome">
+<a class="skip" href="#main" data-i18n="skip">Skip to main content</a>
+<div id="demoBanner" class="demo-banner" hidden></div>
+<header class="top" id="siteHeader" aria-busy="true"></header>
+
+<main id="main" class="narrow" tabindex="-1">
+<div class="card">
+<p id="checking" class="loading" data-i18n="loading">Loading…</p>
+<section id="guarded" hidden>
+<h1 data-i18n="welcome">Welcome</h1>
+<p class="who"><span data-i18n="signedInAs">Signed in as</span><strong id="memberEmail" data-user-email></strong></p>
+<button type="button" id="logout" class="btn secondary block" data-i18n="logout">Log out</button>
+<p class="links"><a href="index.html" data-i18n="navShop">Shop</a> · <a href="admin.html" data-auth="admin" data-i18n="navAdmin">CMS</a></p>
+</section>
+</div>
+</main>
+
+<footer>
+  <a href="privacy.html" data-i18n="navPrivacy">Privacy</a>
+  · <span>公開試用・唔會真收款 · Public demo — no real payments</span>
+</footer>
+<script src="assets/config.js?v=2"></script>
+<script src="assets/i18n.js?v=2"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.118.0/dist/umd/supabase.js" integrity="sha384-TcHRA3zBbn+Lexh5n+Oil4guNPOS3rjNDpGRAN46u/s/mB2IZ50ceC6TYDU2yvgK" crossorigin="anonymous"></script>
+<script src="assets/app.js?v=2"></script>
+</body>
+</html>
